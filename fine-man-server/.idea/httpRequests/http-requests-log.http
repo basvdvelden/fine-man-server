@@ -1,0 +1,16 @@
+GET https://localhost:8444/api/user/{userId}/contacts
+
+###
+
+GET https://localhost:8444/api/user/{userId}/contacts
+
+###
+
+POST https://localhost:8444/api/users/{uuid}/authenticate
+
+###
+
+POST https://localhost:8444/api/users/{uuid}/authenticate
+
+###
+

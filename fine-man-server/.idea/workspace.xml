@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="81d3b237-a691-426f-a9d2-1bd9a80ee45d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/70b5a57e-6eb5-4b9a-9ff2-77a68a429fed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/70b5a57e-6eb5-4b9a-9ff2-77a68a429fed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/management/finance/api/RetrofitConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/management/finance/config/RetrofitConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/management/finance/api/rabo/RaboApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/management/finance/api/rabo/RaboApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/management/finance/api/rabo/RaboHeaderInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/management/finance/api/rabo/RaboHeaderInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/management/finance/config/FilterConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/management/finance/config/FilterConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/management/finance/external/expense/ExpenseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/management/finance/external/expense/ExpenseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/management/finance/external/expense/ExpenseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/management/finance/external/expense/ExpenseMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/management/finance/external/transaction/TransactionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/management/finance/external/transaction/TransactionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/management/finance/external/userbank/UserBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/management/finance/external/userbank/UserBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/management/finance/external/userbank/UserBankDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/management/finance/external/userbank/UserBankDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/management/finance/external/userbank/UserBankMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/management/finance/external/userbank/UserBankMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/management/finance/filters/JWTFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/management/finance/filters/JWTFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/management/finance/filters/PinVerificationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/management/finance/filters/PinVerificationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/management/finance/internal/expense/Expense.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/management/finance/internal/expense/Expense.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/management/finance/internal/expense/ExpenseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/management/finance/internal/expense/ExpenseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/keystore/fine_man_server.p12" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/keystore/fine_man_server.p12" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="finance@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="finance@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="finance@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="finance: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="finance@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="collations" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="fine-man-server" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="fine-man-server" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1TsfXCxKs0nIfIMeHx0FsyuWDlV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/nl/management/finance/external" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="spring.boot" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="nl.management.finance" />
+      <recent name="nl.management.finance.internal.expense" />
+      <recent name="nl.management.finance.external.label" />
+      <recent name="nl.management.finance.internal.expenses" />
+      <recent name="nl.management.finance.external.expenses" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="nl.management.finance.api" />
+      <recent name="nl.management.finance.external.bank" />
+      <recent name="nl.management.finance.external" />
+      <recent name="nl.management.finance.internal.bank" />
+      <recent name="nl.management.finance.internal" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="nl.management.finance.exceptions" />
+      <recent name="nl.management.finance.filters" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\Java\fine-man-server\src\main\java\nl\management\finance\api" />
+      <recent name="C:\Projects\Java\fine-man-server\src\main\java\nl\management\finance\api\rabo" />
+      <recent name="C:\Projects\Java\fine-man-server\src\main\java\nl\management\finance\external\transaction\pojo" />
+      <recent name="C:\Projects\Java\fine-man-server\src\main\resources\jwt" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8444/api/actuator" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/vnd.spring-boot.actuator.v2+json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="fine-man-server [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="assemble" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="fine-man-server [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="fine-man-server [init]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="init" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="fine-man-server [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Application#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/Application.http" index="2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="fine-man-server.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="nl.management.finance.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="server" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="fine-man-server.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="nl.management.finance.Application" />
+      <option name="DEBUG_MODE" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.fine-man-server [assemble]" />
+      <item itemvalue="Gradle.fine-man-server [bootJar]" />
+      <item itemvalue="Gradle.fine-man-server [init]" />
+      <item itemvalue="Gradle.fine-man-server [jar]" />
+      <item itemvalue="HTTP Request.Application#2" />
+      <item itemvalue="Spring Boot.server" />
+      <item itemvalue="Spring Boot.Application" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.fine-man-server [assemble]" />
+        <item itemvalue="HTTP Request.Application#2" />
+        <item itemvalue="Gradle.fine-man-server [jar]" />
+        <item itemvalue="Gradle.fine-man-server [init]" />
+        <item itemvalue="Gradle.fine-man-server [bootJar]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.0858209" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:finance@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81d3b237-a691-426f-a9d2-1bd9a80ee45d" name="Default Changelist" comment="" />
+      <created>1574253760479</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574253760479</updated>
+      <workItem from="1574253763889" duration="14624000" />
+      <workItem from="1574276930477" duration="178000" />
+      <workItem from="1574277215561" duration="1299000" />
+      <workItem from="1574360578189" duration="15814000" />
+      <workItem from="1575743581708" duration="5875000" />
+      <workItem from="1576404666535" duration="4876000" />
+      <workItem from="1576871456117" duration="16371000" />
+      <workItem from="1577284901367" duration="21172000" />
+      <workItem from="1578228423599" duration="31000" />
+      <workItem from="1578230807682" duration="7604000" />
+      <workItem from="1578422716824" duration="2000" />
+      <workItem from="1578423325965" duration="1383000" />
+      <workItem from="1578425821704" duration="7060000" />
+      <workItem from="1578748980488" duration="11814000" />
+      <workItem from="1579111904565" duration="15959000" />
+      <workItem from="1580046768464" duration="11161000" />
+      <workItem from="1580659753720" duration="3291000" />
+      <workItem from="1581445808952" duration="4831000" />
+      <workItem from="1581623964296" duration="13418000" />
+      <workItem from="1581851972101" duration="46205000" />
+      <workItem from="1583155149278" duration="10483000" />
+      <workItem from="1583431876440" duration="8983000" />
+      <workItem from="1584383790645" duration="436000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="658" y="231" key="#Assign_Data_Sources" timestamp="1581866605166">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="658" y="231" key="#Assign_Data_Sources/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1581866605166" />
+    <state x="2992" y="184" key="#Notifications" timestamp="1578749066822">
+      <screen x="2560" y="0" width="1680" height="1050" />
+    </state>
+    <state x="2992" y="184" key="#Notifications/2560.0.1680.1050/0.0.2560.1440@2560.0.1680.1050" timestamp="1578749066822" />
+    <state x="2854" y="165" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578424653764">
+      <screen x="2560" y="0" width="1680" height="1050" />
+    </state>
+    <state x="2854" y="165" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.0.1680.1050/0.0.2560.1440@2560.0.1680.1050" timestamp="1578424653764" />
+    <state x="983" y="331" key="#com.intellij.ide.util.MemberChooser" timestamp="1582111077736">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="983" y="331" key="#com.intellij.ide.util.MemberChooser/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1582111077736" />
+    <state x="3205" y="241" key="#com.intellij.ide.util.MemberChooser/2560.0.1680.1050/0.0.2560.1440@2560.0.1680.1050" timestamp="1580034672114" />
+    <state x="3129" y="294" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1578424640316">
+      <screen x="2560" y="0" width="1680" height="1050" />
+    </state>
+    <state x="3129" y="294" key="#com.intellij.ide.util.TreeClassChooserDialog/2560.0.1680.1050/0.0.2560.1440@2560.0.1680.1050" timestamp="1578424640316" />
+    <state x="838" y="215" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1582104890109">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="838" y="215" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1582104890109" />
+    <state x="715" y="612" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1581798337131">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="715" y="612" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1581798337131" />
+    <state x="1076" y="581" width="561" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582105687794">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1076" y="581" width="561" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1582105687794" />
+    <state x="1076" y="586" width="530" height="238" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1581798352196">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1076" y="586" width="530" height="238" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1581798352196" />
+    <state x="1010" y="467" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582106080448">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1010" y="467" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1582106080448" />
+    <state x="1060" y="467" key="FileChooserDialogImpl" timestamp="1584384253916">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1060" y="467" key="FileChooserDialogImpl/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1584384253916" />
+    <state width="1469" height="487" key="GridCell.Tab.0.bottom" timestamp="1583677899765">
+      <screen x="2560" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1741" height="401" key="GridCell.Tab.0.bottom/2560.0.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1576265197528" />
+    <state width="1637" height="282" key="GridCell.Tab.0.bottom/2560.0.1680.1010/0.0.2560.1400@2560.0.1680.1010" timestamp="1577201663361" />
+    <state width="2274" height="487" key="GridCell.Tab.0.bottom/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1583677853465" />
+    <state width="1469" height="487" key="GridCell.Tab.0.bottom/2560.0.1680.1050/0.0.2560.1440@2560.0.1680.1050" timestamp="1583677899765" />
+    <state width="1469" height="487" key="GridCell.Tab.0.center" timestamp="1583677899765">
+      <screen x="2560" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1741" height="401" key="GridCell.Tab.0.center/2560.0.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1576265197528" />
+    <state width="1637" height="282" key="GridCell.Tab.0.center/2560.0.1680.1010/0.0.2560.1400@2560.0.1680.1010" timestamp="1577201663360" />
+    <state width="2274" height="487" key="GridCell.Tab.0.center/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1583677853465" />
+    <state width="1469" height="487" key="GridCell.Tab.0.center/2560.0.1680.1050/0.0.2560.1440@2560.0.1680.1050" timestamp="1583677899765" />
+    <state width="1469" height="487" key="GridCell.Tab.0.left" timestamp="1583677899765">
+      <screen x="2560" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1741" height="401" key="GridCell.Tab.0.left/2560.0.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1576265197528" />
+    <state width="1637" height="282" key="GridCell.Tab.0.left/2560.0.1680.1010/0.0.2560.1400@2560.0.1680.1010" timestamp="1577201663360" />
+    <state width="2274" height="487" key="GridCell.Tab.0.left/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1583677853464" />
+    <state width="1469" height="487" key="GridCell.Tab.0.left/2560.0.1680.1050/0.0.2560.1440@2560.0.1680.1050" timestamp="1583677899765" />
+    <state width="1469" height="487" key="GridCell.Tab.0.right" timestamp="1583677899765">
+      <screen x="2560" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1741" height="401" key="GridCell.Tab.0.right/2560.0.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1576265197528" />
+    <state width="1637" height="282" key="GridCell.Tab.0.right/2560.0.1680.1010/0.0.2560.1400@2560.0.1680.1010" timestamp="1577201663360" />
+    <state width="2274" height="487" key="GridCell.Tab.0.right/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1583677853465" />
+    <state width="1469" height="487" key="GridCell.Tab.0.right/2560.0.1680.1050/0.0.2560.1440@2560.0.1680.1050" timestamp="1583677899765" />
+    <state width="2274" height="487" key="GridCell.Tab.1.bottom" timestamp="1583677853465">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1637" height="282" key="GridCell.Tab.1.bottom/2560.0.1680.1010/0.0.2560.1400@2560.0.1680.1010" timestamp="1577201663361" />
+    <state width="2274" height="487" key="GridCell.Tab.1.bottom/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1583677853465" />
+    <state width="1469" height="285" key="GridCell.Tab.1.bottom/2560.0.1680.1050/0.0.2560.1440@2560.0.1680.1050" timestamp="1581880458924" />
+    <state width="2274" height="487" key="GridCell.Tab.1.center" timestamp="1583677853465">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1637" height="282" key="GridCell.Tab.1.center/2560.0.1680.1010/0.0.2560.1400@2560.0.1680.1010" timestamp="1577201663361" />
+    <state width="2274" height="487" key="GridCell.Tab.1.center/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1583677853465" />
+    <state width="1469" height="285" key="GridCell.Tab.1.center/2560.0.1680.1050/0.0.2560.1440@2560.0.1680.1050" timestamp="1581880458924" />
+    <state width="2274" height="487" key="GridCell.Tab.1.left" timestamp="1583677853465">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1637" height="282" key="GridCell.Tab.1.left/2560.0.1680.1010/0.0.2560.1400@2560.0.1680.1010" timestamp="1577201663361" />
+    <state width="2274" height="487" key="GridCell.Tab.1.left/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1583677853465" />
+    <state width="1469" height="285" key="GridCell.Tab.1.left/2560.0.1680.1050/0.0.2560.1440@2560.0.1680.1050" timestamp="1581880458924" />
+    <state width="2274" height="487" key="GridCell.Tab.1.right" timestamp="1583677853465">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1637" height="282" key="GridCell.Tab.1.right/2560.0.1680.1010/0.0.2560.1400@2560.0.1680.1010" timestamp="1577201663361" />
+    <state width="2274" height="487" key="GridCell.Tab.1.right/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1583677853465" />
+    <state width="1469" height="285" key="GridCell.Tab.1.right/2560.0.1680.1050/0.0.2560.1440@2560.0.1680.1050" timestamp="1581880458924" />
+    <state width="2517" height="527" key="GridCell.Tab.2.bottom" timestamp="1578424938251">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2517" height="527" key="GridCell.Tab.2.bottom/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1578424938251" />
+    <state width="2517" height="527" key="GridCell.Tab.2.center" timestamp="1578424938251">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2517" height="527" key="GridCell.Tab.2.center/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1578424938251" />
+    <state width="2517" height="527" key="GridCell.Tab.2.left" timestamp="1578424938251">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2517" height="527" key="GridCell.Tab.2.left/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1578424938251" />
+    <state width="2517" height="527" key="GridCell.Tab.2.right" timestamp="1578424938251">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2517" height="527" key="GridCell.Tab.2.right/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1578424938251" />
+    <state x="488" y="111" key="SettingsEditor" timestamp="1584384272263">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="488" y="111" key="SettingsEditor/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1584384272263" />
+    <state x="2880" y="81" key="SettingsEditor/2560.0.1680.1050/0.0.2560.1440@2560.0.1680.1050" timestamp="1578424554065" />
+    <state x="1114" y="504" key="chooseDestDirectoryDialog" timestamp="1581798351965">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1114" y="504" key="chooseDestDirectoryDialog/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1581798351965" />
+    <state x="1173" y="603" width="326" height="259" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1583230021888">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1173" y="603" width="326" height="259" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1583230021888" />
+    <state x="2980" y="180" key="com.intellij.database.dbimport.ImportDialog" timestamp="1580637884514">
+      <screen x="2560" y="0" width="1680" height="1050" />
+    </state>
+    <state x="2980" y="180" key="com.intellij.database.dbimport.ImportDialog/2560.0.1680.1050/0.0.2560.1440@2560.0.1680.1050" timestamp="1580637884514" />
+    <state x="1076" y="540" width="621" height="424" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1581962559470">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1076" y="525" width="407" height="346" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/2560.0.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1577200319261" />
+    <state x="3266" y="379" width="407" height="308" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/2560.0.1680.1010/0.0.2560.1400@2560.0.1680.1010" timestamp="1577204973104" />
+    <state x="1076" y="540" width="621" height="424" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1581962559470" />
+    <state x="1037" y="166" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1583231703077">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="996" y="340" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/2560.0.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1577200531978" />
+    <state x="3214" y="245" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/2560.0.1680.1010/0.0.2560.1400@2560.0.1680.1010" timestamp="1577205044991" />
+    <state x="1037" y="166" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1583231703077" />
+    <state x="3214" y="255" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/2560.0.1680.1050/0.0.2560.1440@2560.0.1680.1050" timestamp="1581877825624" />
+    <state x="1138" y="458" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1581868041107">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1138" y="458" key="com.intellij.database.view.ui.DbObjectDialog/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1581868041107" />
+    <state x="977" y="539" key="com.intellij.ide.util.TipDialog" timestamp="1581623990596">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="975" y="522" key="com.intellij.ide.util.TipDialog/2560.0.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1576694914135" />
+    <state x="977" y="539" key="com.intellij.ide.util.TipDialog/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1581623990596" />
+    <state x="977" y="539" key="com.intellij.ide.util.TipDialog/2560.0.1680.1050/0.0.2560.1440@2560.0.1680.1050" timestamp="1580659768362" />
+    <state x="977" y="318" width="606" height="804" key="find.popup" timestamp="1577284861930">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="977" y="318" width="606" height="804" key="find.popup/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1577284861930" />
+    <state x="662" y="332" key="new project wizard" timestamp="1584384119959">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="662" y="332" key="new project wizard/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1584384119959" />
+    <state x="3142" y="144" key="refactoring.ChangeSignatureDialog" timestamp="1579971526388">
+      <screen x="2560" y="0" width="1680" height="1050" />
+    </state>
+    <state x="3142" y="144" key="refactoring.ChangeSignatureDialog/2560.0.1680.1050/0.0.2560.1440@2560.0.1680.1050" timestamp="1579971526388" />
+    <state x="943" y="325" width="672" height="678" key="search.everywhere.popup" timestamp="1581861769314">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="943" y="325" width="672" height="678" key="search.everywhere.popup/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1581861769314" />
+  </component>
+</project>

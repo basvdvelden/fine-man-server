@@ -1,0 +1,56 @@
+plugins {
+    id 'java'
+    id "io.spring.dependency-management" version "1.0.8.RELEASE" apply false
+    id 'org.springframework.boot' version '2.1.9.RELEASE' apply false
+}
+
+// Load all dependencies versions
+apply from:'dependencies.gradle'
+
+// All our projects have the same group id, this is used when publishing the jars
+allprojects {
+    apply plugin: 'java'
+    apply plugin: 'io.spring.dependency-management'
+    apply plugin: 'base'
+    version '1.0-SNAPSHOT'
+
+    plugins.withType(JavaPlugin) {
+        // JDK version
+        sourceCompatibility = 11
+        targetCompatibility = 11
+
+        tasks.withType(JavaCompile) {
+            // Force UTF-8 as the default character encoding (instead of the platform default, which may be CP1252 in Windows)
+            options.encoding = 'UTF-8'
+        }
+    }
+
+    repositories {
+        mavenCentral()
+    }
+}
+
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'org.springframework.boot'
+
+    plugins.withType(JavaPlugin) {
+        // JDK version
+        sourceCompatibility = 11
+        targetCompatibility = 11
+
+        tasks.withType(JavaCompile) {
+            // Force UTF-8 as the default character encoding (instead of the platform default, which may be CP1252 in Windows)
+            options.encoding = 'UTF-8'
+        }
+    }
+
+    // Making sure sonar can still be run when tests fail
+    test {
+        ignoreFailures false
+
+        testLogging {
+            events "passed", "skipped", "failed"
+        }
+    }
+}

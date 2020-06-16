@@ -1,0 +1,67 @@
+{
+  "groups": [
+    {
+      "name": "bc",
+      "type": "nl.management.finance.bankclient.BCProperties",
+      "sourceType": "nl.management.finance.bankclient.BCProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "bc.rabo-api-url",
+      "type": "java.lang.String",
+      "sourceType": "nl.management.finance.bankclient.BCProperties"
+    },
+    {
+      "name": "bc.rabo-client-id",
+      "type": "java.lang.String",
+      "sourceType": "nl.management.finance.bankclient.BCProperties"
+    },
+    {
+      "name": "bc.rabo-client-secret",
+      "type": "java.lang.String",
+      "sourceType": "nl.management.finance.bankclient.BCProperties"
+    },
+    {
+      "name": "bc.rabo-consent-url",
+      "type": "java.lang.String",
+      "sourceType": "nl.management.finance.bankclient.BCProperties"
+    },
+    {
+      "name": "bc.rabo-key-id",
+      "type": "java.lang.String",
+      "sourceType": "nl.management.finance.bankclient.BCProperties"
+    },
+    {
+      "name": "bc.rabo-private-key",
+      "type": "java.lang.String",
+      "sourceType": "nl.management.finance.bankclient.BCProperties"
+    },
+    {
+      "name": "bc.server-s-s-l-key-store",
+      "type": "java.lang.String",
+      "sourceType": "nl.management.finance.bankclient.BCProperties"
+    },
+    {
+      "name": "bc.server-s-s-l-trust-store",
+      "type": "java.lang.String",
+      "sourceType": "nl.management.finance.bankclient.BCProperties"
+    },
+    {
+      "name": "bc.server-ssl-key-store-password",
+      "type": "java.lang.String",
+      "sourceType": "nl.management.finance.bankclient.BCProperties"
+    },
+    {
+      "name": "bc.server-ssl-trust-store-password",
+      "type": "java.lang.String",
+      "sourceType": "nl.management.finance.bankclient.BCProperties"
+    },
+    {
+      "name": "bc.t-p-p-certificate",
+      "type": "java.lang.String",
+      "sourceType": "nl.management.finance.bankclient.BCProperties"
+    }
+  ],
+  "hints": []
+}

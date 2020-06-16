@@ -1,0 +1,4 @@
+includeFlat 'fine-man-server'
+includeFlat 'fine-man-bank-client'
+
+rootProject.name = 'fine-man'

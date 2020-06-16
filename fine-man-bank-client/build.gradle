@@ -1,0 +1,25 @@
+apply plugin: 'java'
+
+group = 'nl.management.finance.bankclient'
+
+bootJar {
+    enabled = false
+}
+
+bootRun {
+    enabled = false
+}
+
+jar {
+    enabled = true
+}
+
+dependencies {
+    annotationProcessor "org.springframework.boot:spring-boot-configuration-processor"
+
+    implementation libraries.spring
+    implementation libraries.retrofit
+    implementation libraries.okhttp
+
+    implementation fileTree(dir: 'lib', include: ['*.jar'])
+}

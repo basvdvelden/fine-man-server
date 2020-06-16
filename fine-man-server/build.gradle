@@ -1,0 +1,27 @@
+apply plugin: 'application'
+mainClassName = 'nl.management.finance.Application'
+
+group = 'nl.management.finance'
+
+repositories {
+    flatDir {
+        dirs 'lib'
+    }
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile project(":fine-man-bank-client")
+
+    implementation libraries.spring
+    implementation libraries.hibernate
+    implementation libraries.mysql
+    implementation libraries.jsonwebtoken
+    implementation libraries.google_api_client
+    implementation libraries.retrofit
+    implementation libraries.okhttp
+    implementation libraries.redis
+    implementation libraries.rxjava
+
+    implementation fileTree(dir: 'lib', include: ['*.jar'])
+}

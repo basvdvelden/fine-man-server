@@ -1,0 +1,53 @@
+/*
+ * Contains all external references and version used in the project. 
+ * It is not advised to use direct references in each sub-project buildscript for maintenance purposes. 
+ * Keeping the versions here allows us to control them for the entire solution
+ */
+ext {
+    versions = [:]
+    libraries = [:]
+}
+
+libraries.spring = [
+        'org.springframework.boot:spring-boot-starter-web',
+        'org.springframework.boot:spring-boot-starter-security',
+        'org.springframework.boot:spring-boot-starter-data-jpa',
+        'org.springframework.boot:spring-boot-starter-actuator'
+]
+
+versions.rxjava = '3.0.3'
+libraries.rxjava = [
+        'io.reactivex.rxjava3:rxjava:' + versions.rxjava
+]
+
+versions.retrofit = '2.7.1'
+libraries.retrofit = [
+        "com.squareup.retrofit2:retrofit:" + versions.retrofit,
+        "com.squareup.retrofit2:converter-gson:" + versions.retrofit,
+        "com.squareup.retrofit2:converter-scalars:" + versions.retrofit,
+]
+
+versions.okhttp = '4.2.2'
+libraries.okhttp = [
+        "com.squareup.okhttp3:okhttp:" + versions.okhttp,
+        "com.squareup.okhttp3:logging-interceptor:" + versions.okhttp
+]
+
+versions.hibernate = '5.4.6.Final'
+libraries.hibernate = 'org.hibernate:hibernate-core:' + versions.hibernate
+
+versions.mysql = '8.0.18'
+libraries.mysql = 'mysql:mysql-connector-java:' + versions.mysql
+
+versions.jsonwebtoken = '0.10.5'
+libraries.jsonwebtoken = [
+        'io.jsonwebtoken:jjwt-api:' + versions.jsonwebtoken,
+        'io.jsonwebtoken:jjwt-impl:' + versions.jsonwebtoken,
+        'io.jsonwebtoken:jjwt-jackson:' + versions.jsonwebtoken
+]
+
+versions.redis = '3.1.0'
+libraries.redis = 'redis.clients:jedis:' + versions.redis
+
+versions.google_api_client = '1.30.4'
+libraries.google_api_client = 'com.google.api-client:google-api-client:' + versions.google_api_client
